@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                   SwiftyTextView is a enhanced TextView with placeholder and limit characters count support for iOS.
                    DESC
 
   s.homepage     = "https://github.com/SwiftyKit/SwiftyTextView"

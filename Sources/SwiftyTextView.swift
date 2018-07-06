@@ -56,7 +56,6 @@ class SwiftyTextView: UITextView {
             textLayer.fontSize = font!.pointSize
             
             textLayer.string = placeholder
-            log.debug(bounds.minY)
             textLayer.frame = CGRect(origin: CGPoint(x: 5, y: bounds.minY + 8), size: bounds.size)
             
             layer.insertSublayer(textLayer, at: 0)
@@ -164,6 +163,5 @@ extension SwiftyTextView: UITextViewDelegate {
     
     @objc optional func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange) -> Bool
     
-    @objc optional func textView(_ textView: UITextView, shouldInteractWith textAttachment: NSTextAttachment, in characterRange: NSRange) -> Bool
 }
 
